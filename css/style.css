@@ -50,7 +50,7 @@ body {
 h1 {
   text-align: center;
   margin: 30px 0;
-  margin-top: 17vh;
+  margin-top: 15vh;
   color: #333;
 }
 
@@ -215,7 +215,7 @@ h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(5, 88, 242, 0.1);
   transition: all 0.3s ease;
-  margin-top: 17vh;
+  margin-top: 15vh;
 }
 
 #detail-container:hover {
@@ -364,7 +364,7 @@ header a:hover {
   justify-content: space-between;
   padding: 40px 60px;
   gap: 40px;
-  margin-top: 14vh;
+  margin-top: 12vh;
 }
 
 .textarea {
@@ -388,7 +388,7 @@ header a:hover {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 15px 30px;
+  padding: 10px 30px;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 50px;
   margin: 20px auto;
@@ -433,7 +433,7 @@ header a:hover {
   max-width: 100% !important;
   justify-content: center;
   gap: 50px;
-  padding: 25px 60px;
+  padding: 18px 60px;
   margin: 0 !important;
   background: linear-gradient(180deg, #0558F2 0%, #0047B2 100%);
   border-radius: 0 0 500px 500px;

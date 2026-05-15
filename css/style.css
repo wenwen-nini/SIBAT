@@ -1043,3 +1043,437 @@ header a:hover {
     font-size: 14px;
   }
 }
+
+/* Tablet Landscape and Medium Screens (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #dictionary-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 25px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .home-container {
+    padding: 30px 40px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textarea {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .textarea h1 {
+    font-size: 36px;
+  }
+
+  .textarea p {
+    font-size: 16px;
+  }
+
+  .imagearea img {
+    max-width: 500px;
+  }
+
+  .navbar {
+    width: auto;
+    gap: 20px;
+    padding: 12px 25px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .home-navbar {
+    gap: 40px;
+    padding: 20px 50px;
+  }
+
+  .home-navbar a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-top: 12vh;
+  }
+
+  #detail-container {
+    max-width: 90%;
+    padding: 25px;
+    margin: 15vh auto 30px;
+  }
+
+  .objectives {
+    padding: 60px 25px;
+    margin-top: 15vh;
+  }
+
+  .objectives h2 {
+    font-size: 32px;
+  }
+
+  .objectives .containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .purpose-card {
+    width: 80%;
+    min-height: 45vh;
+    margin: 20vh auto;
+  }
+
+  .filterarea {
+    gap: 15px;
+  }
+
+  .filterarea select,
+  .filterarea input {
+    width: 220px;
+  }
+}
+
+/* Small Tablets and Large Phones (600px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  #dictionary-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .home-container {
+    padding: 25px 30px;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 15vh;
+  }
+
+  .textarea h1 {
+    font-size: 32px;
+  }
+
+  .textarea h5 {
+    font-size: 20px;
+    margin-top: 60px;
+  }
+
+  .textarea p {
+    font-size: 15px;
+  }
+
+  .imagearea img {
+    max-width: 100%;
+  }
+
+  .navbar {
+    width: 85%;
+    gap: 15px;
+    padding: 10px 15px;
+  }
+
+  .navbar a {
+    font-size: 13px;
+    padding: 7px 11px;
+  }
+
+  .home-navbar {
+    gap: 30px;
+    padding: 18px 40px;
+  }
+
+  .home-navbar a {
+    font-size: 15px;
+    padding: 9px 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-top: 13vh;
+  }
+
+  #detail-container {
+    max-width: 90%;
+    padding: 20px;
+    margin: 18vh auto 25px;
+  }
+
+  #detail-container h1 {
+    font-size: 22px;
+  }
+
+  #detail-container section h3 {
+    font-size: 19px;
+  }
+
+  .objectives {
+    padding: 50px 20px;
+    margin-top: 12vh;
+  }
+
+  .objectives h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .objectives .containers {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .obj-cards {
+    padding: 35px 25px;
+  }
+
+  .purpose-card {
+    width: 85%;
+    min-height: 35vh;
+    margin: 18vh auto;
+    padding: 20px;
+  }
+
+  .purpose-card h2 {
+    font-size: 20px;
+  }
+
+  .filterarea {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 15px;
+  }
+
+  .filterarea select,
+  .filterarea input {
+    width: 100%;
+  }
+}
+
+/* Extra Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  #dictionary-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 15px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .home-container {
+    padding: 15px 15px;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+
+  .textarea {
+    margin-left: 0;
+  }
+
+  .textarea h5 {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  .textarea h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+
+  .textarea p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .imagearea img {
+    max-width: 100%;
+  }
+
+  .navbar {
+    width: 95%;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    top: 10px;
+  }
+
+  .navbar img {
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  .navbar a {
+    padding: 5px 8px;
+    font-size: 11px;
+    border-radius: 15px;
+  }
+
+  .home-navbar {
+    gap: 15px;
+    padding: 12px 20px;
+    border-radius: 0 0 200px 200px;
+  }
+
+  .home-navbar a {
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .home-navbar img {
+    height: 25px;
+    left: 20px;
+  }
+
+  .home-navbar .demo-title {
+    right: 20px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: 15vh;
+  }
+
+  #detail-container {
+    max-width: 95%;
+    padding: 12px;
+    margin: 22vh auto 20px;
+  }
+
+  #detail-container h1 {
+    font-size: 18px;
+  }
+
+  #detail-container section h3 {
+    font-size: 16px;
+  }
+
+  #detail-container section p,
+  #detail-container section li {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .objectives {
+    padding: 30px 12px;
+    margin-top: 8vh;
+  }
+
+  .objectives h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .objectives .containers {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 100%;
+  }
+
+  .obj-cards {
+    padding: 25px 15px;
+    min-height: auto;
+  }
+
+  .obj-cards img {
+    width: 50px;
+  }
+
+  .obj-cards p {
+    font-size: 13px;
+  }
+
+  .purpose-card {
+    width: 95%;
+    max-width: 100%;
+    min-height: 40vh;
+    margin: 15vh auto 20px;
+    padding: 15px;
+  }
+
+  .purpose-card h2 {
+    font-size: 16px;
+    margin: 10px auto;
+  }
+
+  .purpose-card p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    padding: 20px 15px;
+    gap: 15px;
+    margin-top: 20vh;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .about-demo {
+    padding: 30px 12px;
+    margin-top: 20vh;
+  }
+
+  .about-demo h2 {
+    font-size: 20px;
+  }
+
+  .about-demo p {
+    font-size: 12px;
+  }
+
+  .learnmore {
+    padding: 10px 25px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .filterarea {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+
+  .filterarea select,
+  .filterarea input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  #books-bg {
+    opacity: 0.05;
+  }
+}

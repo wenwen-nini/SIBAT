@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive-sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/images/logo.png" alt="Logo">
+
+        <a href="home.html">Home</a>
+        <a href="dictionary.html" class="active">Dictionary</a>
+        <a href="about.html">About</a>
+    </nav>
+    <h1>Dictionary</h1>
+        <div class="filterarea">
+                <label for="filter"></label>
+                <select name="filter" id="filter">
+                <option value="All">All</option>
+                <option value="Basic Methods of Collecting Data">Basic Methods of Collecting Data</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Methodology of DOE">Methodology of DOE</option>
+                <option value="Methods of Data Collection">Methods of Data Collection</option>
+                <option value="Probability">Probability</option>
+                <option value="Research">Research</option>
+                <option value="Sampling">Sampling</option>
+                <option value="Statistics">Statistics</option>
+                <option value="Statistical Analysis">Statistical Analysis</option>
+                <option value="Survey Design">Survey Design</option>
+                <option value="Types of Data">Types of Data</option>
+                </select>
+                <input class="search" type="text" placeholder="Search anything">
+        </div>
+
+        <div id="dictionary-container"></div>
+
+        <div id="pagination-container"></div>
+
+        <script src="/js/script.js"></script>
+</body>
+</html>

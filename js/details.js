@@ -75,8 +75,8 @@ fetch("../json/terms.json")
 
     if (term.sampleProblem) {
       html += `<section><h3>Sample Problem</h3>`;
-      if (term.sampleProblem.general_question) {
-        html += `<p><strong>General Question:</strong> ${term.sampleProblem.general_question}</p>`;
+      if (term.sampleProblem['general-question']) {
+        html += `<p><strong>General Question:</strong> ${term.sampleProblem['general-question']}</p>`;
       }
       if (term.sampleProblem.question) {
         html += `<p><strong>Question:</strong> ${term.sampleProblem.question}</p>`;

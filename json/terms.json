@@ -223,12 +223,12 @@
         "standardDeviation": 30
       },
       "solution": [
-        "Step 1: Solve for z-score",
+        "Solve for z-score",
         "z = (65 - 90) / 30",
         "z = -0.83",
-        "Step 2: Use Z-table",
+        "Use Z-table",
         "P(z < -0.83) = 0.2033",
-        "Step 3: Subtract from 1",
+        "Subtract from 1",
         "P(x > 65) = 1 - 0.2033",
         "Final Answer: 0.7967"
       ],
@@ -238,10 +238,10 @@
       {
         "question": "What is the probability that x is less than 110?",
         "solution": [
-          "Step 1: Solve for z-score",
+          "Solve for z-score",
           "z = (110 - 90) / 30",
           "z = 0.67",
-          "Step 2: Use Z-table",
+          "Use Z-table",
           "P(z < 0.67) = 0.7486"
         ],
         "answer": "0.7486"
@@ -249,13 +249,13 @@
       {
         "question": "What is the probability that x is between 65 and 110?",
         "solution": [
-          "Step 1: Solve for z-scores",
+          "Solve for z-scores",
           "For 65: z = -0.83",
           "For 110: z = 0.67",
-          "Step 2: Use Z-table",
+          "Use Z-table",
           "P(z < 0.67) = 0.7486",
           "P(z < -0.83) = 0.2033",
-          "Step 3: Subtract probabilities",
+          "Subtract probabilities",
           "0.7486 - 0.2033 = 0.5453"
         ],
         "answer": "0.5453"

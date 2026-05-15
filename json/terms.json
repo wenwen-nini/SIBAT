@@ -195,7 +195,6 @@
   {
     "id": 52,
     "english": "Non-Probability Sampling",
-    "filipino": "or Hindi Probabilistikong Sampling",
     "category": "Sampling",
     "definition": "Paraan ng pagpili ng respondents kung saan hindi pantay ang chance ng bawat miyembro na mapili.",
     "example": "Pinipili ang respondents base sa convenience, purpose, o availability."
@@ -333,7 +332,6 @@
   {
     "id": 48,
     "english": "Probability Sampling",
-    "filipino": "or Probabilistikong Sampling",
     "category": "Sampling",
     "definition": "Paraan ng pagpili ng respondents kung saan lahat ng miyembro ng population ay may pantay o kilalang chance na mapili.",
     "example": "Random ang pagpili ng respondents kaya mas objective at reliable ang sample."

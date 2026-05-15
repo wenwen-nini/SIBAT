@@ -138,7 +138,7 @@
     "filipino": "or Palagay",
     "category": "Research",
     "definition": "Isang pansamantalang hula o paniniwala na sinusuri gamit ang mga datos.",
-    "example": "Mas matibay ang produkto A kaysa sa produkto B."
+    "example": "Ang palagay na 'Mas matibay ang produkto A kaysa sa produkto B' ay isang uri ng palagay."
   },
   {
     "id": 8,
@@ -158,7 +158,7 @@
   {
     "id": 30,
     "english": "Mean",
-    "filipino": "or Karaniwang Halaga",
+    "filipino": "or Karaniwang Halaga (Average)",
     "category": "Statistics",
     "definition": "Ang average ng mga datos. Kinukuha ito sa pamamagitan ng pagdaragdag ng lahat ng values at paghahati sa kabuuang bilang.",
     "formula": "Mean = (Σx) ÷ n",
@@ -211,7 +211,7 @@
     "id": 63,
     "english": "Normal Distribution",
     "category": "Probability",
-    "definition": "Isang uri ng distribution kung saan karamihan ng values ay nasa gitna o average, habang paunti-unti naman ang values habang papalayo sa gitna. Madalas itong ipinapakita gamit ang bell-shaped curve o 'bell curve'",
+    "definition": "Isang uri ng distribution ng datos kung saan karamihan ng values ay nasa gitna o average, habang paunti-unti naman ang values habang papalayo sa gitna. Madalas itong ipinapakita gamit ang bell-shaped curve o 'bell curve'",
     "example": "Bell-shaped curve",
     "image": "/images/normal_distribution.png",
     "formula": "z = (x - μ) / σ",
@@ -365,7 +365,7 @@
     "filipino": "or Datos na Bilang",
     "category": "Types of Data",
     "definition": "Mga datos na maaaring bilangin o sukatin at may numerong halaga.",
-    "example": "Timbang, taas, temperatura, presyo, at oras."
+    "example": "Timbang, taas, temperatura, presyo, at baling ng oras."
   },
   {
     "id": 45,
@@ -430,7 +430,7 @@
     "filipino": "or Sampol",
     "category": "Sampling",
     "definition": "Maliit na bahagi ng isang malaking grupo na pinipili para pag-aralan o suriin.",
-    "example": "Mula sa 500 engineering students, 100 ang sinurvey bilang sampol."
+    "example": "Mula sa 500 engineering students, 100 lang ang sinurvey bilang sampol."
   },
   {
     "id": 59,

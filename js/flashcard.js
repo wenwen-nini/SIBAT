@@ -66,8 +66,8 @@ function displayCard() {
   cardContainer.classList.remove('flipped');
   
   // Display front (term)
-  const termElement = document.querySelector('.flashcard-front');
-  termElement.innerHTML = `
+  const frontElement = document.querySelector('.flashcard-front');
+  frontElement.innerHTML = `
     <div class="flashcard-content">
       <h2>${card.english}</h2>
       <p class="flashcard-hint">${card.filipino || 'Click to flip'}</p>
@@ -75,8 +75,19 @@ function displayCard() {
     <p class="flip-hint">Click card to flip</p>
   `;
   
+  // Display back (definition and example)
+  const backElement = document.querySelector('.flashcard-back');
+  backElement.innerHTML = `
+    <div class="flashcard-content">
+      <h3>Definition</h3>
+      <p>${card.definition}</p>
+      ${card.example ? `<hr><h4>Example:</h4><p>${card.example}</p>` : ''}
+    </div>
+    <p class="flip-hint">Click card to flip</p>
+  `;
+  
   // Make card clickable to flip
-  cardContainer.onclick = () => flipCard(card);
+  cardContainer.onclick = () => flipCard();
   
   // Navigation buttons
   prevBtn.disabled = currentCardIndex === 0;
@@ -84,33 +95,10 @@ function displayCard() {
 }
 
 // Flip card
-function flipCard(card) {
+function flipCard() {
   const cardContainer = document.querySelector('.flashcard-container');
-  const termElement = document.querySelector('.flashcard-front');
-  
   isFlipped = !isFlipped;
   cardContainer.classList.toggle('flipped');
-  
-  if (isFlipped) {
-    // Show back (definition)
-    termElement.innerHTML = `
-      <div class="flashcard-content">
-        <h3>Definition</h3>
-        <p>${card.definition}</p>
-        ${card.example ? `<hr><h4>Example:</h4><p>${card.example}</p>` : ''}
-      </div>
-      <p class="flip-hint">Click card to flip</p>
-    `;
-  } else {
-    // Show front (term)
-    termElement.innerHTML = `
-      <div class="flashcard-content">
-        <h2>${card.english}</h2>
-        <p class="flashcard-hint">${card.filipino || 'Click to flip'}</p>
-      </div>
-      <p class="flip-hint">Click card to flip</p>
-    `;
-  }
 }
 
 // Mark as good

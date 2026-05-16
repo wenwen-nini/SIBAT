@@ -603,7 +603,7 @@ header a:hover {
 .flashcard-study-container {
   max-width: 800px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 0 20px;
   margin-top: 17vh;
 }
 
@@ -613,6 +613,7 @@ header a:hover {
   align-items: center;
   margin-bottom: 30px;
   gap: 20px;
+  padding: 20px;
 }
 
 .nav-arrow {
@@ -624,13 +625,20 @@ header a:hover {
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  width: 130px;
+  text-align: center;
+  flex: 0 0 130px;
 }
 
 .nav-arrow:hover:not(:disabled) {
-  background: #556  8d3;
+  background: #e8f0ff;
+  border-color: #0558F2;
+  box-shadow: 0 4px 12px rgba(5, 88, 242, 0.3);
+  transform: translateY(-2px);
 }
 
 .nav-arrow:disabled {
@@ -638,34 +646,43 @@ header a:hover {
   cursor: not-allowed;
 }
 
-.nav-arrow:hover {
-  border: 2px solid #0558F2;
-  box-shadow: 0 4px 12px rgba(5, 88, 242, 0.3);
-  transform: translateY(-2px);
-  transition: all 0.3s ease;
-}
-
 .flashcard-progress {
   text-align: center;
   color: #0558F2;
   font-weight: bold;
-  flex: 1;
+  white-space: nowrap;
 }
 
 .flashcard-container {
   perspective: 1000px;
   margin: 30px auto;
+  padding: 0 20px;
   height: 400px;
   max-width: 600px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  pointer-events: auto;
 }
 
-.flashcard-container:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 25px rgba(5, 88, 242, 0.25);
+.flashcard-container:hover .flashcard-front,
+.flashcard-container:hover .flashcard-back {
+  box-shadow: 0 8px 25px rgba(5, 88, 242, 0.3);
 }
 
-.flashcard-front {
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard-container.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
   width: 100%;
   height: 100%;
   background:  #f5f5f5;
@@ -679,15 +696,25 @@ header a:hover {
   padding: 40px;
   box-sizing: border-box;
   cursor: pointer;
-  transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   outline: none;
   user-select: none;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
 }
 
-.flashcard-container.flipped .flashcard-front {
-  background: #f5f5f5;
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+.flashcard-inner:not(.flipped) .flashcard-back {
+  pointer-events: none;
+}
+
+.flashcard-inner.flipped .flashcard-front {
+  pointer-events: none;
 }
 
 .flashcard-content {
@@ -785,14 +812,39 @@ header a:hover {
 }
 
 /* Multiple Choice Page */
-.quiz-container {
+.quiz-content-wrapper {
   max-width: 700px;
   margin: 40px auto;
+  padding: 0 20px;
+  margin-top: 17vh;
+}
+
+.back-to-quiz-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.back-to-quiz-btn:hover {
+  background: #5568d3;
+  transform: translateX(-3px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.quiz-container {
+  max-width: 700px;
   padding: 20px;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  margin-top: 20vh;
   border: 2px solid #0558f2ca;
   animation: fadeInRight 0.6s ease-out;
 }

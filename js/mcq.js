@@ -156,6 +156,13 @@ function showResults() {
   const container = document.querySelector('.quiz-container');
   const percentage = Math.round((score / quizQuestions.length) * 100);
   
+  // Calculate stars based on percentage
+  const stars = Math.ceil(percentage / 20);
+  let starsHTML = '';
+  for (let i = 1; i <= 5; i++) {
+    starsHTML += `<span style="font-size: 40px; color: ${i <= stars ? '#FFD700' : '#ddd'};">★</span>`;
+  }
+  
   let resultMessage = '';
   if (percentage >= 80) {
     resultMessage = 'Excellent! You have a great understanding!';
@@ -170,11 +177,12 @@ function showResults() {
   container.innerHTML = `
     <div style="text-align: center; padding: 40px;">
       <h2>Quiz Complete!</h2>
+      <div style="margin: 20px 0;">${starsHTML}</div>
       <p style="font-size: 24px; margin: 20px 0;">Your Score: <strong>${score}/${quizQuestions.length} (${percentage}%)</strong></p>
       <p style="font-size: 16px; margin: 20px 0;">${resultMessage}</p>
       <div style="margin-top: 30px;">
-        <a href="mcq.html" style="display: inline-block; background: #667eea; color: white; padding: 10px 30px; border-radius: 5px; text-decoration: none; margin-right: 10px;">Retake Quiz</a>
-        <a href="quiz.html" style="display: inline-block; background: #764ba2; color: white; padding: 10px 30px; border-radius: 5px; text-decoration: none;">Back to Quiz Menu</a>
+        <a href="mcq.html" style="display: inline-block; background: #667eea; color: white; padding: 10px 30px; border-radius: 12px; text-decoration: none; margin-right: 10px;">Retake Quiz</a>
+        <a href="quiz.html" style="display: inline-block; background: #764ba2; color: white; padding: 10px 30px; border-radius: 12px; text-decoration: none;">Back to Quiz Menu</a>
       </div>
     </div>
   `;

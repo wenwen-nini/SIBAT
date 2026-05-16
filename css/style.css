@@ -506,7 +506,7 @@ header a:hover {
 
 .learnmore:hover {
   background: linear-gradient(135deg, #03338C 0%, #0558F2 100%);
-  transform: translateY(-2px);
+  transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(5, 88, 242, 0.4);
 }
 

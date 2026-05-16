@@ -563,7 +563,6 @@ header a:hover {
   flex-wrap: wrap;
 }
 
-
 .quiz-mode-container a {
   text-decoration: none;
 }
@@ -579,6 +578,7 @@ header a:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   color: rgb(0, 0, 0);
   border: 2px solid rgba(5, 88, 242, 0.8);
+  animation: fadeInBottom 0.6s ease-out;
 }
 
 .quiz-card:hover {
@@ -794,6 +794,7 @@ header a:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   margin-top: 20vh;
   border: 2px solid #0558f2ca;
+  animation: fadeInRight 0.6s ease-out;
 }
 
 .question-number {
@@ -1918,6 +1919,17 @@ header a:hover {
   from {
     opacity: 0;
     transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
   }
   to {
     opacity: 1;

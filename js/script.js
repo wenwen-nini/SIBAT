@@ -8,13 +8,60 @@ let currentPage = 1;
 const itemsPerPage = 8;
 let filteredTerms = [];
 
+// Flatten nested terms into a single array
+function flattenTerms(data) {
+  let flattened = [];
+  
+  data.forEach(term => {
+    // Add the main term
+    flattened.push(term);
+    
+    // If the term has details (nested items), add them as well
+    if (term.details && Array.isArray(term.details)) {
+      term.details.forEach(detail => {
+        // For items with types (like Quota Sampling), also add the types
+        if (detail.types && Array.isArray(detail.types)) {
+          flattened.push(detail);
+          detail.types.forEach(type => {
+            flattened.push(type);
+          });
+        } else {
+          flattened.push(detail);
+        }
+      });
+    }
+  });
+  
+  return flattened;
+}
+
+function populateCategoryOptions(terms) {
+  const categories = new Set();
+  terms.forEach(term => {
+    if (term.category) {
+      categories.add(term.category);
+    }
+  });
+
+  if (!filterSelect) return;
+
+  filterSelect.innerHTML = '<option value="All">All</option>';
+  categories.forEach(category => {
+    filterSelect.innerHTML += `<option value="${category}">${category}</option>`;
+  });
+}
+
 function displayTerms(terms, page = 1) {
-  filteredTerms = terms;
+  filteredTerms = terms.slice().sort((a, b) => {
+    const textA = a.english ? a.english.toLowerCase() : "";
+    const textB = b.english ? b.english.toLowerCase() : "";
+    return textA.localeCompare(textB);
+  });
   currentPage = page;
   
   container.innerHTML = "";
   
-  if (terms.length === 0) {
+  if (filteredTerms.length === 0) {
     container.innerHTML = "<p>No terms found.</p>";
     paginationContainer.innerHTML = "";
     return;
@@ -104,10 +151,23 @@ function filterAndSearch() {
 }
 
 fetch("../json/terms.json")
-  .then(res => res.json())
+  .then(res => {
+    console.log("Response received:", res);
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.json();
+  })
   .then(data => {
-    allTerms = data;
+    console.log("Data loaded:", data);
+    allTerms = flattenTerms(data);
+    console.log("Flattened terms:", allTerms);
+    populateCategoryOptions(allTerms);
     displayTerms(allTerms);
+  })
+  .catch(error => {
+    console.error("Error loading terms:", error);
+    container.innerHTML = "<p>Error loading dictionary: " + error.message + "</p>";
   });
 
 // Add event listeners

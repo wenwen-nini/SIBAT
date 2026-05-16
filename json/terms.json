@@ -1,65 +1,5 @@
 [
   {
-    "id": 22,
-    "english": "Accuracy",
-    "filipino": "or Katumpakan",
-    "category": "Statistical Analysis",
-    "definition": "Kung gaano kalapit ang nakuha mong resulta sa tunay o tamang halaga.",
-    "example": "Kung ang tunay na bigat ay 10kg at ang timbangan mo ay nagbasa ng 9.9kg, mataas ang katumpakan."
-  },
-  {
-    "id": 47,
-    "english": "Analyze",
-    "filipino": "or Pagsusuri",
-    "category": "Survey Design",
-    "definition": "Pag-aanalisa ng nakuhang datos upang makabuo ng konklusyon.",
-    "example": "Pagkuwenta ng average score ng respondents."
-  },
-  {
-    "id": 6,
-    "english": "Attribute",
-    "filipino": "or Katangian",
-    "category": "Data Science",
-    "definition": "Ang mga detalye o katangian ng bawat obserbasyon. Ito ay halos kapareho ng variable ngunit mas tumutukoy sa mga tiyak na katangian ng isang bagay o tao."
-  },
-  {
-    "id": 51,
-    "english": "Cluster Sampling",
-    "category": "Sampling",
-    "definition": "Pagpili ng buong grupo o cluster bilang sample.",
-    "example": "Isang buong section ng engineering students ang sinurvey."
-  },
-  {
-    "id": 46,
-    "english": "Conduct the Interview",
-    "filipino": "or Pagsasagawa ng Panayam",
-    "category": "Survey Design",
-    "definition": "Aktwal na pagkuha ng impormasyon mula sa respondents.",
-    "example": "Pagpapasagot ng survey sa mga estudyante."
-  },
-  {
-    "id": 28,
-    "english": "Constant",
-    "filipino": "or Konstante",
-    "category": "Statistics",
-    "definition": "Value o variable na hindi nagbabago sa isang pag-aaral o eksperimento."
-  },
-  {
-    "id": 53,
-    "english": "Convenience Sampling",
-    "category": "Sampling",
-    "definition": "Pagpili ng madaling lapitan o available na respondents.",
-    "example": "Mga kaklase lamang ang ginawang respondents."
-  },
-  {
-    "id": 15,
-    "english": "Correlation",
-    "filipino": "or Ugnayan",
-    "category": "Statistical Analysis",
-    "definition": "Ang sukat kung magkaugnay ang pagbabago ng dalawang bagay.",
-    "example": "Kung tumataas ang bilis ng makina at tumataas din ang pagkonsumo ng gasolina, mayroong ugnayan sa pagitan ng dalawang bagay na ito."
-  },
-  {
     "id": 1,
     "english": "Data",
     "filipino": "or Datos",
@@ -74,33 +14,49 @@
     "definition": "Isang kumpletong koleksyon ng lahat ng datos na gagamitin sa isang pag-aaral. Ito ay karaniwang nakaayos sa talahanayan na may mga hanay at kolum."
   },
   {
-    "id": 36,
-    "english": "Design of Experiment (DOE)",
-    "filipino": "or Disenyo ng Eksperimento",
-    "category": "Research",
-    "definition": "Isang sistematikong paraan ng pagsasagawa ng eksperimento upang malaman kung aling factors ang nakaaapekto sa resulta."
+    "id": 3,
+    "english": "Variable",
+    "filipino": "or Salik",
+    "category": "Data Science",
+    "definition": "Ang bawat uri o kategorya ng impormasyon na naroroon sa datos.",
+    "example": "Sa isang listahan ng mga estudyante, ang pangalan, edad, at grado ay bawat isa ay isang salik."
   },
   {
-    "id": 16,
-    "english": "Error",
-    "filipino": "or Mali",
-    "category": "Statistical Analysis",
-    "definition": "Ang pagkakaiba sa pagitan ng tunay na halaga at ang halagang nakuha o nakalkula.",
-    "example": "Kung ang tunay na bigat ay 10 kilo at ang nakuha ay 9.8 kilo, ang mali ay 0.2 kilo."
+    "id": 4,
+    "english": "Population",
+    "filipino": "or Populasyon",
+    "category": "Sampling",
+    "definition": "Ang buong grupo ng tao, bagay, o impormasyon na pinag-aaralan.",
+    "example": "Kung nag-aaral tayo ng grades ng lahat ng estudyante sa isang paaralan, ang lahat ng estudyante ay ang populasyon."
   },
   {
-    "id": 12,
-    "english": "Estimation",
-    "filipino": "or Pagtataya",
-    "category": "Statistical Analysis",
-    "definition": "Ang proseso ng pagbibigay ng tantiya o paghuhula sa halaga o katangian ng isang bagay gamit ang mga nakalap na impormasyon o datos. Ginagamit ito upang malaman ang posibleng resulta o katangian kahit hindi pa ganap na nakukuha ang lahat ng impormasyon."
+    "id": 5,
+    "english": "Observation",
+    "filipino": "or Obserbasyon",
+    "category": "Data Science",
+    "definition": "Isang solong hilera o entry sa dataset. Kumakatawan ito sa isang tiyak na paksa o bagay na pinag-aralan, tulad ng isang estudyante o isang produkto."
   },
   {
-    "id": 41,
-    "english": "Experiment Design",
-    "filipino": "or Disenyo ng Eksperimento",
-    "category": "Basic Methods of Collecting Data",
-    "definition": "Paraan ng pagbuo at pagsasaayos ng eksperimento upang makakuha ng maayos na resulta."
+    "id": 6,
+    "english": "Attribute",
+    "filipino": "or Katangian",
+    "category": "Data Science",
+    "definition": "Ang mga detalye o katangian ng bawat obserbasyon. Ito ay halos kapareho ng variable ngunit mas tumutukoy sa mga tiyak na katangian ng isang bagay o tao."
+  },
+  {
+    "id": 7,
+    "english": "Value",
+    "filipino": "or Halaga",
+    "category": "Data Science",
+    "definition": "Ang actual na numbers o impormasyon na naroroon sa bawat variables para sa isang partikular na obserbasyon.",
+    "example": "Kung ang variable ay edad, ang value o halaga ay maaaring 18 o 21."
+  },
+  {
+    "id": 8,
+    "english": "Index",
+    "filipino": "or Indeks",
+    "category": "Data Science",
+    "definition": "Ang numbers o pangalan na ginagamit para tukuyin at mahanap ang bawat hilera sa dataset. Ito ay parang numero ng pahina ng bawat entry."
   },
   {
     "id": 9,
@@ -108,6 +64,13 @@
     "filipino": "or Katangian",
     "category": "Data Science",
     "definition": "Ito ang mga salik na ginagamit para suriin o ilarawan ang datos. Madalas itong gamitin sa machine learning at data science."
+  },
+  {
+    "id": 10,
+    "english": "Record",
+    "filipino": "or Talaan",
+    "category": "Data Science",
+    "definition": "Isang kumpletong hanay ng impormasyon para sa isang paksa sa dataset."
   },
   {
     "id": 11,
@@ -118,19 +81,19 @@
     "example": "Ang patlang para sa pangalan ay naglalaman lamang ng mga pangalan."
   },
   {
-    "id": 23,
-    "english": "Frequency",
-    "filipino": "or Dalas",
-    "category": "Statistics",
-    "definition": "Kung ilang beses lumabas o nangyari ang isang partikular na halaga o kategorya."
+    "id": 12,
+    "english": "Estimation",
+    "filipino": "or Pagtataya",
+    "category": "Statistical Analysis",
+    "definition": "Ang proseso ng pagbibigay ng tantiya o paghuhula sa halaga o katangian ng isang bagay gamit ang mga nakalap na impormasyon o datos. Ginagamit ito upang malaman ang posibleng resulta o katangian kahit hindi pa ganap na nakukuha ang lahat ng impormasyon."
   },
   {
-    "id": 27,
-    "english": "Grouped Data",
-    "filipino": "or Pinangkat na Datos",
-    "category": "Types of Data",
-    "definition": "Ito ay datos na inayos sa iba't ibang grupo o interval para mas madaling suriin.",
-    "example": "70–79 = 5 students, 80–89 = 10 students, 90-99 = 3 students"
+    "id": 13,
+    "english": "Precision",
+    "filipino": "or Kawastuhan",
+    "category": "Statistical Analysis",
+    "definition": "Ang antas kung gaano kalapit ang mga paulit-ulit na sukat o resulta sa isa't isa.",
+    "example": "Kung inulit ang pagsusukat ng haba ng isang bagay at ang mga nakuha ay 10.01, 10.02, at 10.03 sentimetro ay nagpapakita ng mataas na kawastuhan."
   },
   {
     "id": 14,
@@ -141,19 +104,117 @@
     "example": "Ang palagay na 'Mas matibay ang produkto A kaysa sa produkto B' ay isang uri ng palagay."
   },
   {
-    "id": 8,
-    "english": "Index",
-    "filipino": "or Indeks",
-    "category": "Data Science",
-    "definition": "Ang numbers o pangalan na ginagamit para tukuyin at mahanap ang bawat hilera sa dataset. Ito ay parang numero ng pahina ng bawat entry."
+    "id": 15,
+    "english": "Correlation",
+    "filipino": "or Ugnayan",
+    "category": "Statistical Analysis",
+    "definition": "Ang sukat kung magkaugnay ang pagbabago ng dalawang bagay.",
+    "example": "Kung tumataas ang bilis ng makina at tumataas din ang pagkonsumo ng gasolina, mayroong ugnayan sa pagitan ng dalawang bagay na ito."
   },
   {
-    "id": 44,
-    "english": "Interviewing Method",
-    "filipino": "or Paraan ng Panayam",
-    "category": "Survey Design",
-    "definition": "Paraan kung paano kukunin ang sagot ng respondents.",
-    "example": "Online survey gamit ang Google Forms."
+    "id": 16,
+    "english": "Error",
+    "filipino": "or Mali",
+    "category": "Statistical Analysis",
+    "definition": "Ang pagkakaiba sa pagitan ng tunay na halaga at ang halagang nakuha o nakalkula.",
+    "example": "Kung ang tunay na bigat ay 10 kilo at ang nakuha ay 9.8 kilo, ang mali ay 0.2 kilo."
+  },
+  {
+    "id": 17,
+    "english": "Parameter",
+    "filipino": "or Parametro",
+    "category": "Statistics",
+    "definition": "Ito ay numerong naglalarawan sa katangian ng buong populasyon."
+  },
+  {
+    "id": 18,
+    "english": "Quantitative Data",
+    "filipino": "or Datos na Bilang",
+    "category": "Types of Data",
+    "definition": "Mga datos na maaaring bilangin o sukatin at may numerong halaga.",
+    "example": "Timbang, taas, temperatura, presyo, at baling ng oras."
+  },
+  {
+    "id": 19,
+    "english": "Qualitative Data",
+    "filipino": "or Datos na Deskriptibo",
+    "category": "Types of Data",
+    "definition": "Mga datos na tumutukoy sa katangian, uri, o deskripsyon at hindi nabibilang sa numero.",
+    "example": "Kulay, hugis, kasarian, brand ng produkto, o antas ng kasiyahan (masaya, malungkot)."
+  },
+  {
+    "id": 20,
+    "english": "Range",
+    "filipino": "or Saklaw",
+    "category": "Statistics",
+    "definition": "Ang pagkakaiba ng pinakamalaki at pinakamaliit na halaga sa datos. Ipinapakita nito kung gaano kalawak ang pagkakaiba-iba."
+  },
+  {
+    "id": 21,
+    "english": "Regression",
+    "filipino": "or Regresyon",
+    "category": "Statistical Analysis",
+    "definition": "Isang paraan ng pagsusuri para hulaan o alamin ang relasyon ng dalawa o higit pang variable."
+  },
+  {
+    "id": 22,
+    "english": "Accuracy",
+    "filipino": "or Katumpakan",
+    "category": "Statistical Analysis",
+    "definition": "Kung gaano kalapit ang nakuha mong resulta sa tunay o tamang halaga.",
+    "example": "Kung ang tunay na bigat ay 10kg at ang timbangan mo ay nagbasa ng 9.9kg, mataas ang katumpakan."
+  },
+  {
+    "id": 23,
+    "english": "Frequency",
+    "filipino": "or Dalas",
+    "category": "Statistics",
+    "definition": "Kung ilang beses lumabas o nangyari ang isang partikular na halaga o kategorya."
+  },
+  {
+    "id": 24,
+    "english": "Statistics",
+    "filipino": "or Estadistika",
+    "category": "Statistics",
+    "definition": "Sangay ng matematika na ginagamit para mangolekta, magsuri, mag-organize, at mag-interpret ng datos upang makagawa ng tamang desisyon o konklusyon."
+  },
+  {
+    "id": 25,
+    "english": "Sample",
+    "filipino": "or Sampol",
+    "category": "Sampling",
+    "definition": "Maliit na bahagi ng isang malaking grupo na pinipili para pag-aralan o suriin.",
+    "example": "Mula sa 500 engineering students, 100 lang ang sinurvey bilang sampol."
+  },
+  {
+    "id": 26,
+    "english": "Ungrouped or Raw Data",
+    "filipino": "or Hinde Pinangkat o Hilaw na Datos",
+    "category": "Types of Data",
+    "definition": "Ito ay datos na hindi pa nakaayos o nakagrupo. Direkta itong nakuha mula sa respondents o observations.",
+    "example": "75, 80, 90, 85, 70 ang raw data ng scores ng mga estudyante"
+  },
+  {
+    "id": 27,
+    "english": "Grouped Data",
+    "filipino": "or Pinangkat na Datos",
+    "category": "Types of Data",
+    "definition": "Ito ay datos na inayos sa iba't ibang grupo o interval para mas madaling suriin.",
+    "example": "70–79 = 5 students, 80–89 = 10 students, 90-99 = 3 students"
+  },
+  {
+    "id": 28,
+    "english": "Constant",
+    "filipino": "or Konstante",
+    "category": "Statistics",
+    "definition": "Value o variable na hindi nagbabago sa isang pag-aaral o eksperimento."
+  },
+  {
+    "id": 29,
+    "english": "Respondents",
+    "filipino": "or Mga Respondente",
+    "category": "Research",
+    "definition": "Sila ang mga taong sumasagot sa survey, questionnaire, o interview sa isang pananaliksik."
   },
   {
     "id": 30,
@@ -193,22 +254,21 @@
     "answer": "Mode = 75"
   },
   {
-    "id": 52,
-    "english": "Non-Probability Sampling",
-    "category": "Sampling",
-    "definition": "Paraan ng pagpili ng respondents kung saan hindi pantay ang chance ng bawat miyembro na mapili.",
-    "example": "Pinipili ang respondents base sa convenience, purpose, o availability."
+    "id": 33,
+    "english": "Standard Deviation",
+    "filipino": "or Pamantayang Paglihis",
+    "category": "Statistics",
+    "definition": "Sinusukat nito kung gaano kalayo o kalapit ang mga datos sa average."
   },
   {
-    "id": 57,
-    "english": "Non-Proportional Quota",
-    "filipino": "or Hindi Proporsyonal na Quota",
-    "category": "Sampling",
-    "definition": "Hindi sinusunod ang tunay na proporsyon ng population.",
-    "example": "Pantay na bilang ng lalaki at babae kahit hindi pantay sa population."
+    "id": 34,
+    "english": "Variance",
+    "filipino": "or Bariyans",
+    "category": "Statistics",
+    "definition": "Ito ay sukat ng pagkalat ng datos mula sa mean. Ito ang square ng standard deviation."
   },
   {
-    "id": 63,
+    "id": 35,
     "english": "Normal Distribution",
     "category": "Probability",
     "definition": "Isang uri ng distribution ng datos kung saan karamihan ng values ay nasa gitna o average, habang paunti-unti naman ang values habang papalayo sa gitna. Madalas itong ipinapakita gamit ang bell-shaped curve o 'bell curve'",
@@ -263,264 +323,218 @@
     ]
   },
   {
-    "id": 42,
-    "english": "Objectives",
-    "filipino": "or Mga Layunin",
+    "id": 36,
+    "english": "Design of Experiment (DOE)",
+    "filipino": "or Disenyo ng Eksperimento",
+    "category": "Research",
+    "definition": "Isang sistematikong paraan ng pagsasagawa ng eksperimento upang malaman kung aling factors ang nakaaapekto sa resulta."
+  },
+  {
+    "id": 65,
+    "english": "Methods of Data Collection",
+    "filipino": "or Mga Paraan ng Pangangalap ng Datos",
+    "category": "Research",
+    "details": [
+      {
+        "id": 37,
+        "english": "Primary Data",
+        "filipino": "or Pangunahing Datos",
+        "definition": "Datos na direktang kinukuha ng researcher mula sa respondents o eksperimento.",
+        "example": "Pagsasagawa ng survey sa engineering students."
+      },
+      {
+        "id": 38,
+        "english": "Secondary Data",
+        "filipino": "or Sekondaryang Datos",
+        "definition": "Datos na nakuha mula sa existing sources tulad ng libro, journal, o internet.",
+        "example": "Paggamit ng published research articles bilang reference."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "english": "3 Basic Methods of Collecting Data",
+    "filipino": "or Tatlong Pangunahing Paraan ng Pangangalap ng Datos",
+    "category": "Research",
+    "details": [
+      {
+        "id": 39,
+        "english": "Retrospective Study",
+        "filipino": "or Retrospektibong Pag-aaral",
+        "definition": "Pag-aaral na tumitingin sa mga nakaraang datos o pangyayari"
+      },
+      {
+        "id": 40,
+        "english": "Observational Study",
+        "filipino": "or Obserbasyonal na Pag-aaral",
+        "definition": "Pag-aaral kung saan inoobserbahan lamang ang participants nang walang intervention."
+      },
+      {
+        "id": 41,
+        "english": "Experiment",
+        "filipino": "or Eksperimento",
+        "definition": "Paraan ng pagbuo at pagsasaayos ng eksperimento upang makakuha ng maayos na resulta."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "english": "Steps when Designing a Survey",
+    "filipino": "or Mga Hakbang sa Pagdidisenyo ng Survey",
     "category": "Survey Design",
-    "definition": "Ito ang gustong malaman o makamit ng pananaliksik.",
-    "example": "Alamin kung nakatutulong ang bilingual learning materials sa students."
-  },
-  {
-    "id": 5,
-    "english": "Observation",
-    "filipino": "or Obserbasyon",
-    "category": "Data Science",
-    "definition": "Isang solong hilera o entry sa dataset. Kumakatawan ito sa isang tiyak na paksa o bagay na pinag-aralan, tulad ng isang estudyante o isang produkto."
-  },
-  {
-    "id": 40,
-    "english": "Observational Study",
-    "filipino": "or Obserbasyonal na Pag-aaral",
-    "category": "Basic Methods of Collecting Data",
-    "definition": "Pag-aaral kung saan inoobserbahan lamang ang participants nang walang intervention."
-  },
-  {
-    "id": 60,
-    "english": "Optimization",
-    "filipino": "or Pag-optimisa",
-    "category": "Methodology of DOE",
-    "definition": "Paghahanap ng pinakamahusay na kondisyon para makuha ang pinakamagandang resulta."
-  },
-  {
-    "id": 17,
-    "english": "Parameter",
-    "filipino": "or Parametro",
-    "category": "Statistics",
-    "definition": "Ito ay numerong naglalarawan sa katangian ng buong populasyon."
-  },
-  {
-    "id": 58,
-    "english": "Planning",
-    "filipino": "or Pagpaplano",
-    "category": "Methodology of DOE",
-    "definition": "Pagpapasya kung ano ang layunin, variables, at procedures ng eksperimento."
-  },
-  {
-    "id": 4,
-    "english": "Population",
-    "filipino": "or Populasyon",
-    "category": "Sampling",
-    "definition": "Ang buong grupo ng tao, bagay, o impormasyon na pinag-aaralan.",
-    "example": "Kung nag-aaral tayo ng grades ng lahat ng estudyante sa isang paaralan, ang lahat ng estudyante ay ang populasyon."
-  },
-  {
-    "id": 13,
-    "english": "Precision",
-    "filipino": "or Kawastuhan",
-    "category": "Statistical Analysis",
-    "definition": "Ang antas kung gaano kalapit ang mga paulit-ulit na sukat o resulta sa isa't isa.",
-    "example": "Kung inulit ang pagsusukat ng haba ng isang bagay at ang mga nakuha ay 10.01, 10.02, at 10.03 sentimetro ay nagpapakita ng mataas na kawastuhan."
-  },
-  {
-    "id": 37,
-    "english": "Primary Data",
-    "filipino": "or Pangunahing Datos",
-    "category": "Methods of Data Collection",
-    "definition": "Datos na direktang kinukuha ng researcher mula sa respondents o eksperimento.",
-    "example": "Pagsasagawa ng survey sa engineering students."
+    "details": [
+      {
+        "id": 42,
+        "english": "Objectives",
+        "filipino": "or Mga Layunin",
+        "definition": "Ito ang gustong malaman o makamit ng pananaliksik.",
+        "example": "Alamin kung nakatutulong ang bilingual learning materials sa students."
+      },
+      {
+        "id": 43,
+        "english": "Target Population Sample",
+        "filipino": "or Target na Populasyon at Sampol",
+        "definition": "Ito ang grupong gustong pag-aralan at ang mga pipiliing participants mula rito.",
+        "example": "Lahat ng engineering students ang population, pero 100 lang ang sample."
+      },
+      {
+        "id": 44,
+        "english": "Interviewing Method",
+        "filipino": "or Paraan ng Panayam",
+        "definition": "Paraan kung paano kukunin ang sagot ng respondents.",
+        "example": "Online survey gamit ang Google Forms."
+      },
+      {
+        "id": 45,
+        "english": "Questions",
+        "filipino": "or Mga Tanong",
+        "definition": "Mga tanong na gagamitin upang makuha ang kinakailangang datos.",
+        "example": "Mas madali mo bang naiintindihan ang lessons kapag bilingual ang materials?"
+      },
+      {
+        "id": 46,
+        "english": "Conduct the Interview",
+        "filipino": "or Pagsasagawa ng Panayam",
+        "definition": "Aktwal na pagkuha ng impormasyon mula sa respondents.",
+        "example": "Pagpapasagot ng survey sa mga estudyante."
+      },
+      {
+        "id": 47,
+        "english": "Analyze",
+        "filipino": "or Pagsusuri",
+        "definition": "Pag-aanalisa ng nakuhang datos upang makabuo ng konklusyon.",
+        "example": "Pagkuwenta ng average score ng respondents."
+      }
+    ]
   },
   {
     "id": 48,
     "english": "Probability Sampling",
     "category": "Sampling",
     "definition": "Paraan ng pagpili ng respondents kung saan lahat ng miyembro ng population ay may pantay o kilalang chance na mapili.",
-    "example": "Random ang pagpili ng respondents kaya mas objective at reliable ang sample."
+    "example": "Random ang pagpili ng respondents kaya mas objective at reliable ang sample.",
+    "details": [
+      {
+        "id": 49,
+        "english": "Simple Random Sampling",
+        "filipino": "or Simpleng Random Sampling",
+        "definition": "Bawat miyembro ng population ay may pantay na chance mapili.",
+        "example": "Random na pagpili ng pangalan gamit ang raffle."
+      },
+      {
+        "id": 50,
+        "english": "Stratified Sampling",
+        "filipino": "or Istratipikadong Sampling",
+        "definition": "Hinahati muna ang population sa grupo bago pumili ng sample.",
+        "example": "Paghiwalay ng students ayon sa year level bago magsample."
+      },
+      {
+        "id": 51,
+        "english": "Cluster Sampling",
+        "definition": "Pagpili ng buong grupo o cluster bilang sample.",
+        "example": "Isang buong section ng engineering students ang sinurvey."
+      }
+    ]
   },
   {
-    "id": 56,
-    "english": "Proportional Quota",
-    "filipino": "or Proporsyonal na Quota",
+    "id": 68,
+    "english": "Non-Probability Sampling",
     "category": "Sampling",
-    "definition": "Ang bilang ng respondents kada grupo ay nakaayon sa totoong proporsyon ng population.",
-    "example": "Kung 60% lalaki ang population, 60% din ng sample ay lalaki."
+    "definition": "Paraan ng pagpili ng respondents kung saan hindi pantay ang chance ng bawat miyembro na mapili.",
+    "example": "Pinipili ang respondents base sa convenience, purpose, o availability.",
+    "details": [
+      {
+        "id": 53,
+        "english": "Convenience Sampling",
+        "definition": "Pagpili ng madaling lapitan o available na respondents.",
+        "example": "Mga kaklase lamang ang ginawang respondents."
+      },
+      {
+        "id": 54,
+        "english": "Purposive Sampling",
+        "definition": "Pagpili ng respondents base sa specific na katangian o qualification.",
+        "example": "Mga engineering students na nakapag-take na ng statistics subject."
+      },
+      {
+        "id": 55,
+        "english": "Quota Sampling",
+        "definition": "Pagpili ng respondents hanggang maabot ang required na bilang bawat grupo.",
+        "example": "50 lalaki at 50 babae ang respondents.",
+        "types": [
+          {
+            "id": 56,
+            "english": "Proportional Quota",
+            "filipino": "or Proporsyonal na Quota",
+            "definition": "Ang bilang ng respondents kada grupo ay nakaayon sa totoong proporsyon ng population.",
+            "example": "Kung 60% lalaki ang population, 60% din ng sample ay lalaki."
+          },
+          {
+            "id": 57,
+            "english": "Non-Proportional Quota",
+            "filipino": "or Hindi Proporsyonal na Quota",
+            "definition": "Hindi sinusunod ang tunay na proporsyon ng population.",
+            "example": "Pantay na bilang ng lalaki at babae kahit hindi pantay sa population."
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 54,
-    "english": "Purposive Sampling",
-    "category": "Sampling",
-    "definition": "Pagpili ng respondents base sa specific na katangian o qualification.",
-    "example": "Mga engineering students na nakapag-take na ng statistics subject."
-  },
-  {
-    "id": 19,
-    "english": "Qualitative Data",
-    "filipino": "or Datos na Deskriptibo",
-    "category": "Types of Data",
-    "definition": "Mga datos na tumutukoy sa katangian, uri, o deskripsyon at hindi nabibilang sa numero.",
-    "example": "Kulay, hugis, kasarian, brand ng produkto, o antas ng kasiyahan (masaya, malungkot)."
-  },
-  {
-    "id": 18,
-    "english": "Quantitative Data",
-    "filipino": "or Datos na Bilang",
-    "category": "Types of Data",
-    "definition": "Mga datos na maaaring bilangin o sukatin at may numerong halaga.",
-    "example": "Timbang, taas, temperatura, presyo, at baling ng oras."
-  },
-  {
-    "id": 45,
-    "english": "Questions",
-    "filipino": "or Mga Tanong",
-    "category": "Survey Design",
-    "definition": "Mga tanong na gagamitin upang makuha ang kinakailangang datos.",
-    "example": "Mas madali mo bang naiintindihan ang lessons kapag bilingual ang materials?"
-  },
-  {
-    "id": 55,
-    "english": "Quota Sampling",
-    "category": "Sampling",
-    "definition": "Pagpili ng respondents hanggang maabot ang required na bilang bawat grupo.",
-    "example": "50 lalaki at 50 babae ang respondents."
-  },
-  {
-    "id": 20,
-    "english": "Range",
-    "filipino": "or Saklaw",
-    "category": "Statistics",
-    "definition": "Ang pagkakaiba ng pinakamalaki at pinakamaliit na halaga sa datos. Ipinapakita nito kung gaano kalawak ang pagkakaiba-iba."
-  },
-  {
-    "id": 10,
-    "english": "Record",
-    "filipino": "or Talaan",
-    "category": "Data Science",
-    "definition": "Isang kumpletong hanay ng impormasyon para sa isang paksa sa dataset."
-  },
-  {
-    "id": 21,
-    "english": "Regression",
-    "filipino": "or Regresyon",
-    "category": "Statistical Analysis",
-    "definition": "Isang paraan ng pagsusuri para hulaan o alamin ang relasyon ng dalawa o higit pang variable."
-  },
-  {
-    "id": 29,
-    "english": "Respondents",
-    "filipino": "or Mga Respondente",
+    "id": 69,
+    "english": "Methodology of DOE",
+    "filipino": "or Metodolohiya ng DOE",
     "category": "Research",
-    "definition": "Sila ang mga taong sumasagot sa survey, questionnaire, o interview sa isang pananaliksik."
-  },
-  {
-    "id": 39,
-    "english": "Retrospective Study",
-    "filipino": "or Retrospektibong Pag-aaral",
-    "category": "Basic Methods of Collecting Data",
-    "definition": "Pag-aaral na tumitingin sa mga nakaraang datos o pangyayari"
-  },
-  {
-    "id": 61,
-    "english": "Robustness Testing",
-    "filipino": "or Pagsusuri ng Katatagan",
-    "category": "Methodology of DOE",
-    "definition": "Pagsubok kung consistent pa rin ang resulta kahit may kaunting pagbabago sa conditions."
-  },
-  {
-    "id": 25,
-    "english": "Sample",
-    "filipino": "or Sampol",
-    "category": "Sampling",
-    "definition": "Maliit na bahagi ng isang malaking grupo na pinipili para pag-aralan o suriin.",
-    "example": "Mula sa 500 engineering students, 100 lang ang sinurvey bilang sampol."
-  },
-  {
-    "id": 59,
-    "english": "Screening",
-    "filipino": "or Pagsasala",
-    "category": "Methodology of DOE",
-    "definition": "Pagkilala kung aling factors ang may malaking epekto sa resulta."
-  },
-  {
-    "id": 38,
-    "english": "Secondary Data",
-    "filipino": "or Sekondaryang Datos",
-    "category": "Methods of Data Collection",
-    "definition": "Datos na nakuha mula sa existing sources tulad ng libro, journal, o internet.",
-    "example": "Paggamit ng published research articles bilang reference."
-  },
-  {
-    "id": 49,
-    "english": "Simple Random Sampling",
-    "filipino": "or Simpleng Random Sampling",
-    "category": "Sampling",
-    "definition": "Bawat miyembro ng population ay may pantay na chance mapili.",
-    "example": "Random na pagpili ng pangalan gamit ang raffle."
-  },
-  {
-    "id": 33,
-    "english": "Standard Deviation",
-    "filipino": "or Pamantayang Paglihis",
-    "category": "Statistics",
-    "definition": "Sinusukat nito kung gaano kalayo o kalapit ang mga datos sa average."
-  },
-  {
-    "id": 24,
-    "english": "Statistics",
-    "filipino": "or Estadistika",
-    "category": "Statistics",
-    "definition": "Sangay ng matematika na ginagamit para mangolekta, magsuri, mag-organize, at mag-interpret ng datos upang makagawa ng tamang desisyon o konklusyon."
-  },
-  {
-    "id": 50,
-    "english": "Stratified Sampling",
-    "filipino": "or Istratipikadong Sampling",
-    "category": "Sampling",
-    "definition": "Hinahati muna ang population sa grupo bago pumili ng sample.",
-    "example": "Paghiwalay ng students ayon sa year level bago magsample."
-  },
-  {
-    "id": 43,
-    "english": "Target Population Sample",
-    "filipino": "or Target na Populasyon at Sampol",
-    "category": "Survey Design",
-    "definition": "Ito ang grupong gustong pag-aralan at ang mga pipiliing participants mula rito.",
-    "example": "Lahat ng engineering students ang population, pero 100 lang ang sample."
-  },
-  {
-    "id": 26,
-    "english": "Ungrouped or Raw Data",
-    "filipino": "or Hinde Pinangkat o Hilaw na Datos",
-    "category": "Types of Data",
-    "definition": "Ito ay datos na hindi pa nakaayos o nakagrupo. Direkta itong nakuha mula sa respondents o observations.",
-    "example": "75, 80, 90, 85, 70 ang raw data ng scores ng mga estudyante"
-  },
-  {
-    "id": 7,
-    "english": "Value",
-    "filipino": "or Halaga",
-    "category": "Data Science",
-    "definition": "Ang actual na numbers o impormasyon na naroroon sa bawat variables para sa isang partikular na obserbasyon.",
-    "example": "Kung ang variable ay edad, ang value o halaga ay maaaring 18 o 21."
-  },
-  {
-    "id": 3,
-    "english": "Variable",
-    "filipino": "or Salik",
-    "category": "Data Science",
-    "definition": "Ang bawat uri o kategorya ng impormasyon na naroroon sa datos.",
-    "example": "Sa isang listahan ng mga estudyante, ang pangalan, edad, at grado ay bawat isa ay isang salik."
-  },
-  {
-    "id": 34,
-    "english": "Variance",
-    "filipino": "or Bariyans",
-    "category": "Statistics",
-    "definition": "Ito ay sukat ng pagkalat ng datos mula sa mean. Ito ang square ng standard deviation."
-  },
-  {
-    "id": 62,
-    "english": "Verification",
-    "filipino": "or Beripikasyon",
-    "category": "Methodology of DOE",
-    "definition": "Pagkumpirma kung tama at maaasahan ang resulta ng eksperimento."
+    "details": [
+      {
+        "id": 58,
+        "english": "Planning",
+        "filipino": "or Pagpaplano",
+        "definition": "Pagpapasya kung ano ang layunin, variables, at procedures ng eksperimento."
+      },
+      {
+        "id": 59,
+        "english": "Screening",
+        "filipino": "or Pagsasala",
+        "definition": "Pagkilala kung aling factors ang may malaking epekto sa resulta."
+      },
+      {
+        "id": 60,
+        "english": "Optimization",
+        "filipino": "or Pag-optimisa",
+        "definition": "Paghahanap ng pinakamahusay na kondisyon para makuha ang pinakamagandang resulta."
+      },
+      {
+        "id": 61,
+        "english": "Robustness Testing",
+        "filipino": "or Pagsusuri ng Katatagan",
+        "definition": "Pagsubok kung consistent pa rin ang resulta kahit may kaunting pagbabago sa conditions."
+      },
+      {
+        "id": 62,
+        "english": "Verification",
+        "filipino": "or Beripikasyon",
+        "definition": "Pagkumpirma kung tama at maaasahan ang resulta ng eksperimento."
+      }
+    ]
   }
 ]

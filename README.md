@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SIBAT - Bilingual Statistics Dictionary
 
 ## Project Overview
@@ -170,3 +171,6 @@ After editing `terms.json`, you can validate the JSON by:
 ## Browser Compatibility
 
 This website works best in modern browsers (Chrome, Firefox, Safari, Edge) with JavaScript enabled.
+=======
+# SIBAT
+>>>>>>> 8c306fd6176d4b97221529c6893e2c760b127cd5

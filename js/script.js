@@ -32,7 +32,8 @@ function populateCategoryOptions(terms) {
   if (!filterSelect) return;
 
   filterSelect.innerHTML = '<option value="All">All</option>';
-  categories.forEach(category => {
+  const sortedCategories = Array.from(categories).sort();
+  sortedCategories.forEach(category => {
     filterSelect.innerHTML += `<option value="${category}">${category}</option>`;
   });
 }

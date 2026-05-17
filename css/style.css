@@ -1059,6 +1059,7 @@ header a:hover {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #blue-card {
@@ -1435,6 +1436,7 @@ header a:hover {
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 100%;
+    overflow: hidden;
   }
 
   #blue-card,

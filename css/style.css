@@ -1782,6 +1782,11 @@ header a:hover {
 
 /* Extra Small Phones (max-width: 480px) */
 @media (max-width: 480px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
   #dictionary-container {
     grid-template-columns: 1fr;
     gap: 12px;

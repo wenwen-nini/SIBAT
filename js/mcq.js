@@ -181,8 +181,8 @@ function showResults() {
       <p style="font-size: 24px; margin: 20px 0;">Your Score: <strong>${score}/${quizQuestions.length} (${percentage}%)</strong></p>
       <p style="font-size: 16px; margin: 20px 0;">${resultMessage}</p>
       <div style="margin-top: 30px;">
-        <a href="mcq.html" style="display: inline-block; background: #667eea; color: white; padding: 10px 30px; border-radius: 12px; text-decoration: none; margin-right: 10px;">Retake Quiz</a>
-        <a href="quiz.html" style="display: inline-block; background: #764ba2; color: white; padding: 10px 30px; border-radius: 12px; text-decoration: none;">Back to Quiz Menu</a>
+        <a href="mcq.html" style="display: inline-block; background: #667eea; color: white; padding: 10px 30px; border-radius: 18px; text-decoration: none; margin-right: 10px;">Retake Quiz</a>
+        <a href="quiz.html" style="display: inline-block; background: #764ba2; color: white; padding: 10px 30px; border-radius: 18px; text-decoration: none;">Back to Quiz Menu</a>
       </div>
     </div>
   `;

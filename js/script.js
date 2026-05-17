@@ -13,23 +13,9 @@ function flattenTerms(data) {
   let flattened = [];
   
   data.forEach(term => {
-    // Add the main term
+    // Add the main term only
+    // Details are kept nested within the parent term and won't appear as separate cards
     flattened.push(term);
-    
-    // If the term has details (nested items), add them as well
-    if (term.details && Array.isArray(term.details)) {
-      term.details.forEach(detail => {
-        // For items with types (like Quota Sampling), also add the types
-        if (detail.types && Array.isArray(detail.types)) {
-          flattened.push(detail);
-          detail.types.forEach(type => {
-            flattened.push(type);
-          });
-        } else {
-          flattened.push(detail);
-        }
-      });
-    }
   });
   
   return flattened;
@@ -68,10 +54,10 @@ function displayTerms(terms, page = 1) {
   }
 
   // Calculate pagination
-  const totalPages = Math.ceil(terms.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredTerms.length / itemsPerPage);
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const paginatedTerms = terms.slice(startIndex, endIndex);
+  const paginatedTerms = filteredTerms.slice(startIndex, endIndex);
 
   // Display terms
   paginatedTerms.forEach(term => {

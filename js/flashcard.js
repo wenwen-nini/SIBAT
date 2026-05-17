@@ -128,16 +128,46 @@ function markBad() {
 // Next card
 function nextCard() {
   if (currentCardIndex < flashcards.length - 1) {
-    currentCardIndex++;
-    displayCard();
+    const cardContainer = document.querySelector('.flashcard-container');
+    
+    // Animate out to the left
+    cardContainer.classList.add('slide-out-left');
+    
+    // Wait for animation to complete, then display new card
+    setTimeout(() => {
+      currentCardIndex++;
+      cardContainer.classList.remove('slide-out-left');
+      cardContainer.classList.add('slide-in-right');
+      displayCard();
+      
+      // Remove animation class after it completes
+      setTimeout(() => {
+        cardContainer.classList.remove('slide-in-right');
+      }, 400);
+    }, 400);
   }
 }
 
 // Previous card
 function previousCard() {
   if (currentCardIndex > 0) {
-    currentCardIndex--;
-    displayCard();
+    const cardContainer = document.querySelector('.flashcard-container');
+    
+    // Animate out to the right
+    cardContainer.classList.add('slide-out-right');
+    
+    // Wait for animation to complete, then display new card
+    setTimeout(() => {
+      currentCardIndex--;
+      cardContainer.classList.remove('slide-out-right');
+      cardContainer.classList.add('slide-in-left');
+      displayCard();
+      
+      // Remove animation class after it completes
+      setTimeout(() => {
+        cardContainer.classList.remove('slide-in-left');
+      }, 400);
+    }, 400);
   }
 }
 

@@ -75,7 +75,8 @@ fetch("../json/terms.json")
           html += `<li>
             <strong>${detail.english}</strong>
             ${detail.filipino ? `<br><em>${detail.filipino}</em>` : ''}
-            ${detail.definition ? `<br>${detail.definition}` : ''}`;
+            ${detail.definition ? `<br>${detail.definition}` : ''}
+            ${detail.example ? `<br><strong>Halimbawa:</strong> ${detail.example}` : ''}`;
           html += `<ol>`;
           detail.types.forEach(type => {
             html += `<li>

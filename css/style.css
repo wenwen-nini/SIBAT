@@ -1847,14 +1847,14 @@ header a:hover {
   }
 
   .home-navbar {
-    gap: 15px;
-    padding: 12px 20px;
+    gap: 0px;
+    padding: 12px 12px;
     border-radius: 0 0 200px 200px;
   }
 
   .home-navbar a {
     font-size: 12px;
-    padding: 7px 12px;
+    padding: 7px 8px;
   }
 
   .home-navbar img {
@@ -1865,7 +1865,7 @@ header a:hover {
   .home-navbar .demo-title {
     right: 20px;
     font-size: 10px;
-    padding: 5px 10px;
+    padding: 5px 8px;
   }
 
   h1 {

@@ -1498,6 +1498,48 @@ header a:hover {
     padding: 12px 30px;
     font-size: 14px;
   }
+
+  .flashcard-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-arrow {
+    padding: 6px 10px;
+    font-size: 10px;
+    width: 70px;
+    flex: 0 0 70px;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .flashcard-progress {
+    font-size: 12px;
+    flex: 1;
+  }
+
+  .flashcard-container {
+    height: 300px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .flashcard-rating {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .rating-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 /* Tablet Landscape and Medium Screens (768px - 1024px) */
@@ -1593,6 +1635,18 @@ header a:hover {
   .filterarea select,
   .filterarea input {
     width: 220px;
+  }
+
+  .flashcard-rating {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .rating-btn {
+    padding: 12px 40px;
+    width: auto;
   }
 }
 
@@ -1927,6 +1981,48 @@ header a:hover {
     width: 100%;
     padding: 12px 15px;
     font-size: 14px;
+  }
+
+  .flashcard-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-arrow {
+    padding: 6px 10px;
+    font-size: 10px;
+    width: 70px;
+    flex: 0 0 70px;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .flashcard-progress {
+    font-size: 12px;
+    flex: 1;
+  }
+
+  .flashcard-container {
+    height: 300px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .flashcard-rating {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .rating-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
   }
 
   #books-bg {
